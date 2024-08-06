@@ -1,0 +1,33 @@
+
+.button {
+    background-color: green;
+        color: white;
+    }
+    
+    .lgn {
+        color: green;
+        font: Cera Pro;
+        
+Weight:
+500;
+Size:
+20px;
+line-height:
+16px;
+    }
+    .imgn {
+        Width: 20px;
+        Height: 20px;
+       Top: 10px;
+        Left:69px;
+    }
+    .imgn-2 {
+        Width:
+        20px;
+        Height:
+        20px;
+        Top:
+        11px;
+        Left:
+        64px;  
+    }
