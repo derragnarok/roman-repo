@@ -6,41 +6,142 @@
     <title>Document</title>
   </head>
   <body>
-    <ul class="navigation-list">
-      <li class="navigation-item">
-        <a class="navigaion-link" href="#">Home</a>
-        </li>
-        <li class="navigation-item">
-        <a class="navigaion-link" href="#">Shop</a>
-      </li>
-      <li class="navigation-item">
-        <a class="navigaion-link" href="#">Plant Care</a>
-      </li>
-      <li class="navigation-item">
-        <a class="navigation-link" href="#">Blogs</a>
-      </li>
-        <img src="Logout.png" class="logo">
-        <button type="submit" class="button">Login</button>
-      </li>
-    </ul>
+    <div class="panel">
+      <a href="#" class="logo"><img src="Logo.png" /></a>
+      <nav class="nav-up">
+        <ul class="navigation-list">
+          <li class="navigation-item"></li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#">Home</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#">Shop</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#">Plant Care</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#">Blogs</a>
+          </li>
+        </ul>
+      </nav>
+      <a href="#"><img src="Button.png" class="button" /></a>
+    </div>
+    <hr />
 
+    <div class="main-banner">
+      <div class="text-1">
+        <!---P-->
+        <p>Welcome to GreenShop</p>
+      </div>
+      <div class="text-2">
+        <!--H1-->
+        <h1>Let’s Make A Better <span class="planet">Planet</span></h1>
+      </div>
+      <div class="text-3">
+        <!---P-->
+        <p>
+          We are an online plant shop offering a wide range of cheap and trendy
+          plants. Use our plants to create an unique Urban Jungle. Order your
+          favorite plants!
+        </p>
+      </div>
+      <button type="submit" class="button-1">Shop now</button>
+    </div>
+    <div class="little-flower"><img src="LF1.png" /></div>
+    <div class="big-flower"><img src="BF1.png" /></div>
     <style>
-      .navigation-list {
-        
-        Width:1200px;
-        Height:53px;
-        Top:30px;
-        Left:120px;
+      .button-1 {
+        background-color: green;
+        color: white;
+        border-radius: 10px;
+        width: 140px;
+        height: 40px;
+        top: 325px;
+        left: 41px;
+      }
+      .panel {
+        width: 1200px;
+        height: 53px;
+        top: 30px;
+        left: 120px;
       }
 
+      .navigation-list {
+        display: inline;
+        margin: 0px 5px;
+        padding: 0px 10px;
+      }
+      .navigation-item {
+        display: inline-block;
+        margin: 0px 25px;
+        padding: 0px 20px;
+      }
+      .nav-up {
+        display: inline-block;
+        align-content: center;
+      }
       .button {
-        background-color: #46a358;
-        color: #ffffff;
+        display: inline-block;
         width: 100px;
         height: 35px;
-        left: 1100px;
+        margin-top: 10px;
+        margin-left: 170px;
       }
-      
+      .logo {
+        margin: 20px 35px;
+        padding: 0px;
+      }
+      .navigation-link {
+        color: black;
+      }
+      .text-1 {
+        width: 205px;
+        height: 16px;
+        top: 68px;
+        left: 43px;
+      }
+      .text-2 {
+        width: 530px;
+        height: 140px;
+        top: 91px;
+        left: 40px;
+      }
+      .text-3 {
+        width: 557px;
+        height: 45px;
+        top: 236px;
+        left: 43px;
+        gap: 0px;
+        opacity: 0px;
+      }
+      .little-flower {
+        position: relative;
+        width: 135px;
+        height: 135px;
+        top: -15px;
+        left: 748px;
+      }
+      .big-flower {
+        position: relative;
+
+        width: 507px;
+        height: 450px;
+        left: 693px;
+        top: -450px;
+      }
+
+      .main-banner {
+        display: inline-block;
+        position: relative;
+        width: 1200px;
+        height: 450px;
+        top: 95px;
+        left: 120px;
+      }
+      .planet {
+        color: green;
+      }
     </style>
   </body>
 </html>
