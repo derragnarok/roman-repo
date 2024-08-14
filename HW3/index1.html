@@ -7,7 +7,9 @@
   </head>
   <body>
     <div class="panel">
-      <a href="#" class="logo"><img src="Logo.png" /></a>
+      <nav class="logo">
+        <a href="#"><img src="Logo.png" /></a>
+      </nav>
       <nav class="nav-up">
         <ul class="navigation-list">
           <li class="navigation-item"></li>
@@ -25,9 +27,11 @@
           </li>
         </ul>
       </nav>
-      <a href="#"><img src="Button.png" class="button" /></a>
+      <nav class="button">
+        <a href="#"><img src="Button.png" /></a>
+      </nav>
+      <hr />
     </div>
-    <hr />
 
     <div class="main-banner">
       <div class="text-1">
@@ -51,6 +55,9 @@
     <div class="little-flower"><img src="LF1.png" /></div>
     <div class="big-flower"><img src="BF1.png" /></div>
     <style>
+      nav {
+        display: inline-block;
+      }
       .button-1 {
         background-color: green;
         color: white;
@@ -59,8 +66,10 @@
         height: 40px;
         top: 325px;
         left: 41px;
+        cursor: pointer;
       }
       .panel {
+        display: inline-block;
         width: 1200px;
         height: 53px;
         top: 30px;
@@ -74,8 +83,8 @@
       }
       .navigation-item {
         display: inline-block;
-        margin: 0px 25px;
-        padding: 0px 20px;
+        margin: 0px 20px;
+        padding: 0px 15px;
       }
       .nav-up {
         display: inline-block;
@@ -83,14 +92,11 @@
       }
       .button {
         display: inline-block;
-        width: 100px;
-        height: 35px;
-        margin-top: 10px;
-        margin-left: 170px;
+        margin: 0px 0px 0px 235px;
+        padding: 0px;
       }
       .logo {
-        margin: 20px 35px;
-        padding: 0px;
+        margin: 0px 130px 0px 0px;
       }
       .navigation-link {
         color: black;
@@ -102,6 +108,9 @@
         left: 43px;
       }
       .text-2 {
+        padding: 2px;
+        margin: 5px;
+        border: 3px;
         width: 530px;
         height: 140px;
         top: 91px;
@@ -141,6 +150,9 @@
       }
       .planet {
         color: green;
+      }
+      .navigation-link:hover {
+        text-underline-position: 3px;
       }
     </style>
   </body>
