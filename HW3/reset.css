@@ -1,0 +1,101 @@
+
+nav {
+    display: inline-block;
+  }
+  .button-1 {
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    display: inline-block;
+    cursor: pointer;
+  }
+  .panel {
+    display: inline-block;
+    margin: 25px 120px 12px 120px;
+    padding-bottom: 18px;
+    
+  }
+
+  .navigation-list {
+    
+    display: inline-block;
+    margin: 0px 30px;
+    padding: 0px 40px;
+  }
+  .navigation-item {
+    display: inline-block;
+    margin: 0px 5px;
+    padding: 0px 10px;
+  }
+  .nav-up {
+    margin: 0px 90px 0px 90px;
+    vertical-align: middle;
+  }
+  .button {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px 0px 0px 15px;
+    padding: 0px;
+  }
+  .logo {
+display: inline-block;
+    vertical-align: middle;
+    margin: 0px 30px 0px 0px;
+
+  }
+  .navigation-link {
+    color: black;
+  }
+  .text-1 {
+    width: 205px;
+    height: 16px;
+    top: 68px;
+    left: 43px;
+  }
+  .text-2 {
+    padding: 2px;
+    margin: 5px;
+    border: 3px;
+    width: 530px;
+    height: 140px;
+    top: 91px;
+    left: 40px;
+  }
+  .text-3 {
+    width: 557px;
+    height: 45px;
+    top: 236px;
+    left: 43px;
+    display: block;
+  }
+  .little-flower {
+    position: relative;
+    width: 135px;
+    height: 135px;
+    top: -190px;
+    left: 748px;
+  }
+  .big-flower {
+    position: relative;
+
+    width: 507px;
+    height: 450px;
+    left: 693px;
+    top: -625px;
+  }
+
+  .main-banner {
+    display: inline-block;
+    position: relative;
+    width: 1200px;
+    height: 450px;
+    top: 95px;
+    left: 120px;
+  }
+  .planet {
+    color: green;
+  }
+  .navigation-link:hover {
+    text-underline-position: 3px;
+  }
+  
