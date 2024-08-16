@@ -1,0 +1,97 @@
+
+nav {
+    display: inline-block;
+  }
+  .button-1 {
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    display: inline-block;
+    cursor: pointer;
+  }
+  .panel {
+    display: inline-block;
+    margin: 25px 120px 12px 120px;
+    padding-bottom: 18px;
+    border-bottom: 0.3px solid green;
+
+  }
+
+  .navigation-list {
+
+    display: inline-block;
+    margin: 0px 30px;
+    padding: 0px 40px;
+  }
+  .navigation-item {
+    display: inline-block;
+    margin: 10px 5px;
+    padding: 0px 10px;
+    
+  }
+  .nav-up {
+    margin: 0px 90px 0px 90px;
+    vertical-align: middle;
+
+  }
+  .button {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px 0px 0px 15px;
+    padding: 0px;
+  }
+  .logo {
+display: inline-block;
+    vertical-align: middle;
+    margin: 0px 30px 0px 0px;
+
+  }
+  .navigation-link {
+    text-decoration: none;
+    position: relative;
+    color: black;
+  }
+  .navigation-link::after{
+    color: green;
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    height: 2px;
+    background-color: currentColor;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  .navigation-link:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  .text-1 {
+    display: inline-block;
+    
+  }
+  .text-2 {
+    display: inline-block;
+   
+  }
+  .text-3 {
+    display: inline-block;
+    
+
+  }
+  .big-flower {
+    display: inline-block;
+  }
+
+  .main-banner {
+    display: inline-block;
+    
+  }
+  .planet {
+    color: green;
+  }
+  .navigation-link:hover {
+    text-underline-position: 3px;
+  }
