@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'CeraPro';
+    src: url('CeraPro-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    body {
+        font-family: 'CeraPro', sans-serif; 
+    }
+}
+.promo-banners {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+
+.promo-item {
+    display: flex;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #ddd;
+    align-items: center;
+    width: 48%;
+}
+
+.promo-item img {
+    width: 150px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.promo-text {
+    flex-grow: 1;
+}
+
+.promo-text h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.promo-text p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #3c663d;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-blog{
+    display: inline-block;
+    text-decoration: none;
+    background-color: transparent; 
+    border: 2px solid #fff;
+    color: black;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+.btn:hover {
+    background-color: #2e4a2c;
+}
+
+.btn-blog:hover {
+    color: green;
+}
+
+
+.blog-posts {
+    
+    display: grid;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.blog-posts h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.blog-posts p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.blog-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+    gap: 10px;
+}
+
+.blog-card {
+    display:inline-block;
+    text-align: left;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+}
+
+.blog-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.blog-info {
+    padding: 10px;
+}
+
+.blog-info .blog-date {
+    font-size: 12px;
+    color: #999;
+    margin-bottom: 5px;
+}
+
+.blog-info h4 {
+    font-size: 30px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.blog-info p {
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 15px;
+}
