@@ -1,0 +1,180 @@
+@font-face {
+    font-family:'CeraPro';
+    src: url('CeraPro-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'CeraPro', sans-serif;
+}
+
+.AdBanner {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    width: 250px; 
+    height: 500px; 
+    position: relative;
+    border: 1px solid #ccc; 
+    overflow: hidden;
+}
+
+.background-image {
+    width: 100%; 
+    height: auto; 
+}
+
+
+.overlay-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -10%); 
+    width: 250px; 
+    height: auto; 
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #fff;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+}
+
+.sidebar h2 {
+    color: #3c663d;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding-bottom: 250px;
+    padding-inline-start: 10px;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.sidebar ul li a:hover {
+    color: #3c663d;
+}
+
+.sale-banner {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.sale-banner h3 {
+    font-size: 24px;
+    color: #3c663d;
+    margin-bottom: 10px;
+}
+
+.sale-banner p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.main-content {
+    flex-grow: 1;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.filters {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.tabs {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.tabs li {
+    margin-right: 20px;
+}
+
+.tabs li a {
+    text-decoration: none;
+    color: #3c663d;
+}
+
+.tabs li a.active {
+    font-weight: bold;
+    border-bottom: 2px solid #3c663d;
+}
+
+.sorting {
+    display: flex;
+    align-items: center;
+}
+
+.sorting label {
+    margin-right: 10px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.product-card {
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.product-card p {
+    margin: 0;
+}
+
+.product-card .price {
+    color: #3c663d;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pagination a {
+    text-decoration: none;
+    color: #3c663d;
+    margin: 0 5px;
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+}
+
+.pagination a:hover {
+    background-color: #3c663d;
+    color: #fff;
+}
