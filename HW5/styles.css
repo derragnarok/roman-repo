@@ -4,11 +4,11 @@
     font-weight: normal;
     font-style: normal;
 }
+
 body {
-    body {
-        font-family: 'CeraPro', sans-serif; 
+    font-family: 'CeraPro', sans-serif; 
     }
-}
+
 .promo-banners {
     display: flex;
     justify-content: space-between;
@@ -61,9 +61,11 @@ body {
     background-color: transparent; 
     border: 2px solid #fff;
     color: black;
-    padding: 10px 20px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 15px;
+    position: absolute;
+    bottom: -50px;
+    
     transition: background-color 0.3s, color 0.3s;
 }
 
@@ -90,17 +92,12 @@ body {
     margin-bottom: 10px;
 }
 
-.blog-posts p {
-    font-size: 16px;
-    color: #666;
-    margin-bottom: 30px;
-}
 
 .blog-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     
-    gap: 10px;
+    gap: 20px;
 }
 
 .blog-card {
@@ -114,7 +111,7 @@ body {
 .blog-card img {
     width: 100%;
     height: auto;
-    margin-bottom: 15px;
+    margin-bottom: -20px;
 }
 
 .blog-info {
@@ -122,15 +119,15 @@ body {
 }
 
 .blog-info .blog-date {
-    font-size: 12px;
+    font-size: 15px;
     color: #999;
-    margin-bottom: 5px;
 }
 
 .blog-info h4 {
     font-size: 30px;
     color: #333;
-    margin-bottom: 10px;
+    margin-bottom: -10px;
+    margin-top: -15px;
 }
 
 .blog-info p {
