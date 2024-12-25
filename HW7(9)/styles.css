@@ -60,8 +60,7 @@
 }
 .banner {
     position: absolute;
-
-   background-color: green;
+    background-color: green;
     width: 70px;
     height: 25px;
     color: #ddd;
@@ -70,9 +69,9 @@ del {
     color: grey;
 }
 .Frame {
-    position: absolute;
-    top: 400px;
-    left: 660px;
+    position: relative;
+    top: -93px;
+    left: 70px;
     width: 100px;
     height: 25px;
 
