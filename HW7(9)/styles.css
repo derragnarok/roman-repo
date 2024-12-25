@@ -1,3 +1,8 @@
+* {
+    border: 1px solid red;
+    margin: 2px;
+    padding: 2px;
+}
 .panel {
     display: flex;
     justify-content: center;
@@ -22,19 +27,20 @@
     padding: 20px;
 }
 
-.product:hover {
-    text-align: center;
-    outline: dotted green;
-   
-}
 
-.product img {
+   
+.product:hover {
+    box-shadow:  0px -5px 0px 0px  green;
+}
+.product .Plants {
+
     width: 250px;
     height: 250px;
     object-fit: cover;
 }
 
-.product-name {
+.product-name:hover {
+    cursor: pointer;
     margin: 10px 0;
     font-weight: bold;
 }
@@ -51,4 +57,23 @@
 
 .sortby-list select {
     padding: 5px;
+}
+.banner {
+    position: absolute;
+
+   background-color: green;
+    width: 70px;
+    height: 25px;
+    color: #ddd;
+}
+del {
+    color: grey;
+}
+.Frame {
+    position: absolute;
+    top: 400px;
+    left: 660px;
+    width: 100px;
+    height: 25px;
+
 }
