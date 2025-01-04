@@ -55,27 +55,24 @@ del {
 }
 
 .buttons-1 {
-    position:relative;
+   
     display: flex;
     justify-content: center;
-    top: -60px;
-    left: 60px;
+  
     
 }
 .buttons-2 {
-    position:relative;
+   
     display: flex;
     justify-content: center;
-    top: -60px;
-    left: 60px;
+    
 }
 
 .buttons-3 {
-    position:relative;
+   
     display: flex;
     justify-content: center;
-    top: -60px;
-    left: 60px;
+   
 }
 .hidden-block{
     display:none ;
