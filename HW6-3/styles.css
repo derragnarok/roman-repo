@@ -1,0 +1,52 @@
+.panel {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.panel a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.panel a.active {
+    color: green;
+    border-bottom: 2px solid green;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.product {
+    text-align: center;
+}
+
+.product img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.product-name {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.product-price {
+    color: green;
+}
+
+.sortby-list {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px;
+}
+
+.sortby-list select {
+    padding: 5px;
+}
