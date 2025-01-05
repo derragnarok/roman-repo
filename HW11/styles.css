@@ -1,0 +1,150 @@
+@font-face {
+  font-family: "CeraPro";
+  font-style: normal;
+  font-weight: 400;
+  src: local("CeraPro-Regular.ttf");}
+
+
+
+
+
+/* .up-side-bar */
+.up-side-bar {
+    display:flex;
+    background-color: rgb(251, 251, 251);
+    width: 1200px;
+    height: 250px;
+    gap: 20px;
+}
+/* .Garden {
+  background-image: url("images/Pic\ Garden.jpg");
+  background-repeat: no-repeat;
+}
+.Plant {
+  background-image: url("images/Pic\ Plant.jpg");
+  background-repeat: no-repeat;
+}
+.Watering {
+  background-image: url("images/Pic\ Watering.jpg");
+  background-repeat: no-repeat;
+} */
+
+
+
+
+
+
+
+
+.placeholder-button-wrapper {
+    display: flex;
+    border: 1px solid rgb(251, 251, 251);
+    border-radius: 6px;
+    overflow: hidden;
+    width: 75%;
+  }
+
+  .placeholder-button-wrapper input {
+    border: none;
+    padding: 10px 60px;
+    outline: none;
+    flex: 1;
+  }
+
+  .placeholder-button-wrapper button {
+    border: none;
+    padding: 10px 35px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    font-size: large;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .email {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+  }
+  p {
+    text-align: justify;
+    width: 75%;
+    padding-top: 20px;
+  }
+
+  
+  
+  
+  /* .middle-side-bar */
+  .middle-side-bar{
+    height: 88px;
+    background-image: linear-gradient(to right, rgb(239, 246, 240 ), rgb(113, 192, 113));
+    width: 1200px;
+    align-items: center;
+    display: inline-flex;
+    gap: 160px;
+  }
+  .navigation-info{
+    display: flex;
+    width: 200px;
+    align-items: center;
+  }
+  .a-mailto{
+    display: flex;
+    align-items: center;
+  }
+  .tel-info {
+    display: flex;
+    align-items: center;
+  }
+
+  /* .down-side-bar */
+  .down-side-bar {
+    margin-top: 30px;
+    display: flex;
+    width: 1200px;
+    gap: 170px;
+  }
+  .side-bar-1{
+    display: flex;
+    gap: 140px;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 5px;
+    margin-bottom: 30px;
+  }
+  .icon-media li{
+    display: inline-flex;
+  }
+  h3 {
+  margin: 0px;
+  }
+  body {
+    line-height: 1.6;
+    font-family: "CeraPro", "Arial", sans-serif;
+  }
+  
+  .icon-1 {
+    width: 35px;
+    height: 35px;
+  }
+  .bottom-cont {
+    width: 1200px;
+    text-align: center; 
+    margin-top: 30px;
+  }
+  a{
+    color: rgb(61, 61, 61);
+  }
